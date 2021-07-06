@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f5f7;
+    background-color: #A1F1F7;
     font-family: "Open Sans", "Raleway", Arial, sans-serif;
     color: #808080;
   }
@@ -148,4 +148,151 @@ body {
   margin: 0;
   list-style-type: none;
   width: 10px;
+}
+
+#btn-acoes{
+  display: flex;
+  justify-content: space-between;
+}
+
+#input-edit{
+  height: 72px;
+  border: none;
+  width: 100%;
+  padding: 5px;
+  background-color: #FFF;
+  color: #1737E7;    
+}
+
+#btn-editar{
+  background-color: green;
+  color: #FFF;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 20px;    
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: all .5s ease-out;
+}
+
+#btn-editar:hover{
+  background-color: #FFF;
+  color: green;
+}
+
+#btn-salvar{
+  background-color: #94D1FF;
+  color: #FFF;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: all .5s ease-out;
+}
+
+#btn-salvar:hover{
+  background-color: #8ebef550;
+  color: #94D1FF;
+}
+
+#btn-cancelar{
+  background-color: red;
+  color: #FFF;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: all .5s ease-out;
+}
+
+#btn-cancelar:hover{
+  background-color: #FFF;
+  color: red;
+}
+
+
+table{    
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 14px;
+  font-weight: normal; 
+  text-align: center;
+  border-spacing: 0 8px;
+}
+
+table thead tr th:first-child, 
+table tbody tr td:first-child {
+  border-radius: 6px 0 0 6px;
+  padding-left: 20px;
+}
+
+table thead tr th:last-child, 
+table tbody tr td:last-child {
+  border-radius: 0 6px 6px 0;
+  padding-right: 20px;
+}
+
+thead th {
+  height: 40px;
+  padding: 15px;
+  background-color: #94D1FF;
+  color: #fff;
+  font-size: 18px;
+}
+
+tbody td  {
+  height: 40px;
+  padding: 15px;
+  background-color: #94D1FF;
+  color: #A1F1F7;
+}
+
+
+tbody tr {
+  opacity: 0.7;
+}
+
+tbody tr:hover {
+  opacity: 1;
+}
+
+.titulo{
+  color: #FFF;    
+  margin-top: 50px;
+  border-radius: 5px;
+
+  padding-top: 15px;    
+}
+
+header{
+  text-align: center;
+  margin: 40px;    
+}
+
+.material-icons{
+  margin-top: 5px;
+  text-decoration: none;
+  color: #000 ;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.log{
+  font-size: 20px;
+}
+
+
+.sub-titulo{
+  color: #FFF;
+  text-align: center;
+  margin-top: 10px;     
 }

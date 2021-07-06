@@ -103,14 +103,14 @@ export default function ConsultaMedico() {
             <header>
                 <h1 className="titulo">Médico - Histórico de Consultas
                     <br />
-                    <Link to='/' className="material-icons"> logout</Link>
+                    <Link to='/' className="material-icons">logout</Link>
                 </h1>
 
             </header>
- 
+
             <section>
 
-                <h2 className="sub-titulo"> Consultas</h2>
+                <h2 className="sub-titulo">Histórico de Consultas</h2>
 
                 <table>
 
@@ -124,7 +124,7 @@ export default function ConsultaMedico() {
                             <th>Horário</th>
                             <th>Status</th>
                             <th>Descrição Consulta</th>
-                            <th></th>
+                            <th>Edição</th>
                         </tr>
 
                     </thead>

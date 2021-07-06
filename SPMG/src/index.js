@@ -51,9 +51,9 @@ const routing = (
 
         <Route exact path="/" component={Home} />
         <Route exact path="/login" component={Login} /> {/* tela - Login */}
-        <RolePaciente path="/paciente" component={Paciente} /> {/* tela - paciente */}
-        <RoleMedico path="/medico" component={Medico} /> {/* tela - médico */}
-        <RoleAdm path="/administrador" component={Administrador} /> {/* tela - administrador */}
+        <Route exact path="/paciente" component={Paciente} /> {/* tela - paciente */}
+        <Route exact path="/medico" component={Medico} /> {/* tela - médico */}
+        <Route exact path="/administrador" component={Administrador} /> {/* tela - administrador */}
         <Route exact path="/notfound" component={NotFound} /> {/* Not Found */}
         <Redirect to="/notfound" />
 
