@@ -44,7 +44,7 @@ export default function ConsultaPaciente(){
     
             <section>
     
-                <h2 className="sub-titulo">Histórico de Consultas</h2>
+                <h2 className="sub-titulo"> Consultas</h2>
     
                 <table>
                     
