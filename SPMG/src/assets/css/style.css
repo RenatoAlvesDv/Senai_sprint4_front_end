@@ -297,3 +297,101 @@ header{
   text-align: center;
   margin-top: 10px;     
 }
+
+/*página - Administrador*/
+.cadastro{
+  width: 28vw;
+  height: 500px;
+
+  border-radius: 5px;   
+  margin: 0 auto;   
+}
+
+.sub-titulo{
+  color: #FFF;
+  text-align: center;
+  margin-top: 10px;     
+}
+
+#table-adm{
+  margin-top: 15px;
+}
+
+#cadastro-consulta{
+  width: 100%;        
+  padding: 30px;
+  border-radius: 20px;
+  justify-content: center;
+  flex-direction: column;
+  height: 120px;    
+}
+
+#btn-salvar-consultas{
+  background-color: #FFF;
+  color: #94D1FF;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  transition: all .5s ease-out;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#btn-salvar-consultas:hover{
+  background-color: #8ebef550;
+  color: #FFFF;
+}
+
+#btn-adm{
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  background-color: #FFF;
+  color: #94D1FF;
+  padding: 7px;        
+  font-weight: bold;
+  font-size: 16px;     
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: all .5s ease-out;        
+}
+
+#btn-adm:hover{
+  background-color: #8ebef550;
+  color: #FFFF;
+}
+
+.campos{
+  font-size: 18px;
+  color: #FFF;         
+}
+
+.campos input,select{
+  height: 30px;
+  color: #94D1FF;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 100%;
+  background-color: #FFF;
+  opacity: .7;
+}
+
+hr{
+  color: #FFF;
+  width: 80vw;
+  margin:0 auto;
+  margin-top: 50px;    
+}
+
+#historico-consulta{
+  margin-top: 40px;
+}

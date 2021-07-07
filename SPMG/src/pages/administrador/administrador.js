@@ -279,7 +279,7 @@ export default function Administrador() {
 
                 </section>
 
-                <hr />
+               
 
                 <section id="historico-consulta">
 
