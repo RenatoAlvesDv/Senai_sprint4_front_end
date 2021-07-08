@@ -3,6 +3,9 @@ import '../../assets/css/style.css';
 import "../../assets/css/flexbox.css";
 import logo from "../../assets/img/logo.png";
 import ba from "../../assets/img/ba.png"
+import clinicogeral from "../../assets/img/clinicogeral.png"
+import cardologia from "../../assets/img/cardologia.png"
+import ortopedia from "../../assets/img/ortopedia.png"
 
 
 function Home() {
@@ -34,16 +37,16 @@ function Home() {
             <section className="especialidades">
                 <div className="flex-center-bt wrap">
                     <div className="card">
-                        <img src={ba} alt="banner principal do site" />
+                        <img src={clinicogeral} alt="imagem do clinico geral" />
                         <h3>CLINICO GERAL</h3>
                     </div>
                     <div className="card">
-                        <img src={ba} alt="banner principal do site" />
-                        <h3>CLINICO GERAL</h3>
+                        <img src={cardologia} alt="Imagem da Cardologia" />
+                        <h3>CARDOLOGIA</h3>
                     </div>
                     <div className="card">
-                        <img src={ba} alt="banner principal do site" />
-                        <h3>CLINICO GERAL</h3>
+                        <img src={ortopedia} alt="Imagem da Ortopedia" />
+                        <h3>ORTOPEDIA</h3>
                     </div>
                 </div>
             </section>

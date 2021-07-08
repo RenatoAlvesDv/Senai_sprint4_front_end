@@ -101,7 +101,7 @@ export default function ConsultaMedico() {
         <div>
 
             <header>
-                <h1 className="titulo">Médico - Histórico de Consultas
+                <h1 className="titulo">Médico 
                     <br />
                     <Link to='/' className="material-icons"> logout</Link>
                 </h1>

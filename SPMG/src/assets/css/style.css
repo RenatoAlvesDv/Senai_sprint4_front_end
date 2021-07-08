@@ -11,6 +11,13 @@ body {
   }
  /* TOPO */
 
+ header{
+  text-align: center;
+ /* margin: 0px;    */
+}
+
+
+
 .topoPrincipal {
     background-color: #94D1FF;
     /*padding: 20px 0;*/
@@ -216,7 +223,7 @@ body {
 
 #btn-cancelar:hover{
   background-color: #FFF;
-  color: red;
+  color: rgb(37, 37, 37);
 }
 
 
@@ -274,10 +281,7 @@ tbody tr:hover {
   padding-top: 15px;    
 }
 
-header{
-  text-align: center;
-  margin: 40px;    
-}
+
 
 .material-icons{
   margin-top: 5px;
@@ -319,7 +323,7 @@ header{
 
 #cadastro-consulta{
   width: 100%;        
-  padding: 30px;
+  padding: 20px;
   border-radius: 20px;
   justify-content: center;
   flex-direction: column;

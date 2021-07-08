@@ -136,7 +136,7 @@ export default function Administrador() {
         <div className="pg-adm">
 
             <header>
-                <h1 className="titulo">Adiministrador - Gerenciamento de Consultas <br />
+                <h1 className="titulo">Administrador  <br />
                     <Link to='/' className="material-icons">logout</Link>
                 </h1>
             </header>
